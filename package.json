@@ -1,0 +1,34 @@
+{
+  "name": "sk_watchdog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "",
+    "build": "pwd",
+    "git-add": "git add . && git status",
+    "git-commit": "git cz",
+    "git-push": "git push",
+    "git-update": "git checkout main && git pull"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "../../node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Istani/nodemodule_watchdog.git"
+  },
+  "keywords": [],
+  "author": "Sascha Kaufmann (sascha.u.kaufmann@googlemail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Istani/nodemodule_watchdog/issues"
+  },
+  "homepage": "https://github.com/Istani/nodemodule_watchdog#readme"
+}
