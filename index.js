@@ -3,6 +3,7 @@ class Watchdog {
   constructor(timeoutms, callback) {
     this.timeoutms=timeoutms;
     this.callback=callback;
+    this.trigger();
   }
 
   trigger() {
